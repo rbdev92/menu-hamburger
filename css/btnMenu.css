@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.btnMenu {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  text-indent: -9999px;
+  padding: 20px 15px;
+}
+
+.btnMenu-open {
+  background-image: url(../img/menu-hamburger.svg);
+}
+
+.btnMenu-close {
+  background-color: #747c81;
+  background-image: url(../img/menu-hamburger-white.svg);
+  cursor: pointer;
+}
